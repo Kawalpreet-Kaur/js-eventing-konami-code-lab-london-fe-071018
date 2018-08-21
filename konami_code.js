@@ -8,22 +8,22 @@ function init(event) {
   bodyTag.addEventListener('keydown',event=>{
     const keyCode = event.detail || event.which;
   
-    console.log(keypkeressed);
+    console.log(keyCode);
     
-    let convertedValue=parseInt(keypressed);
+    let convertedValue=parseInt(keyCode);
     console.log(convertedValue);
   if (convertedValue===code[index] && index<10){
-     index++;
-      console.log('inside if',index);
-   }
-   else if (index<10) {
-     index=0;
-     console.log('inside else if',index);
-   }
-   else if (index===10){
-     console.log('alert',index);
-   alert('Hurray');
-   }
+    index++;
+    console.log('inside if',index);
+  }
+  else if (index<10) {
+    index=0;
+    console.log('inside else if',index);
+  }
+  else if (index===10){
+    console.log('alert',index);
+    alert('Hurray');
+  }
   });
 }
 init();
