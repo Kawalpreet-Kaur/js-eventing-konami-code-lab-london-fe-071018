@@ -8,8 +8,10 @@ function init(event) {
   let keypressed=bodyTag.addEventListener('keydown',event.which);
   console.log(keypressed);
   let convertedValue=parseInt(keypressed);
+  console.log(convertedValue);
    if (convertedValue===code[index] && index<10){
      index++;
+      console.log(convertedValue);
    }
    else if (index<10) {
      index=0;
