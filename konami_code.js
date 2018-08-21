@@ -7,10 +7,13 @@ function init(event) {
   let bodyTag=document.getElementsByTagName('body');
   let keypressed=bodyTag.addEventListener(event.which);
   let convertedValue=parseInt(keypressed);
-   if (convertedValue===code[index]){
+   if (convertedValue===code[index] && index<10){
      index++;
    }
-   else {
+   else if (index<10) {
      index=0;
+   }
+   else if (index=10){
+   alert('Hurray');
    }
 }
