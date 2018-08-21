@@ -6,7 +6,9 @@ function init(event) {
   // Write your JavaScript code inside the init() function
   let bodyTag=document.getElementsByTagName('body');
   let keypressed=bodyTag.addEventListener('keydown',event=>(event.detail || event.which));
+  
   console.log(keypressed);
+  
   let convertedValue=parseInt(keypressed);
   console.log(convertedValue);
    if (convertedValue===code[index] && index<10){
