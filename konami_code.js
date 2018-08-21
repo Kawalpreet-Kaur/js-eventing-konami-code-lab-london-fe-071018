@@ -13,7 +13,7 @@ function init(event) {
    else if (index<10) {
      index=0;
    }
-   else if (index=10){
+   else if (index===10){
    alert('Hurray');
    }
 }
