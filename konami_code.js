@@ -8,11 +8,11 @@ function init(event) {
   bodyTag.addEventListener('keydown',event=>{
     const keyCode = event.detail || event.which;
   
-  console.log(keypkeressed);
-  
-  let convertedValue=parseInt(keypressed);
-  console.log(convertedValue);
-   if (convertedValue===code[index] && index<10){
+    console.log(keypkeressed);
+    
+    let convertedValue=parseInt(keypressed);
+    console.log(convertedValue);
+  if (convertedValue===code[index] && index<10){
      index++;
       console.log('inside if',index);
    }
