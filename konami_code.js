@@ -24,5 +24,5 @@ function init(event) {
      console.log('alert',index);
    alert('Hurray');
    }
-  })
+  });
 }
