@@ -12,18 +12,18 @@ function init(event) {
     
     let convertedValue=parseInt(keyCode);
     console.log(convertedValue);
-  if (convertedValue===code[index] && index<10){
-    index++;
-    console.log('inside if',index);
-  }
-  else if (index<10) {
-    index=0;
-    console.log('inside else if',index);
-  }
-  else if (index===10){
-    console.log('alert',index);
-    alert('Hurray');
-  }
+    if (convertedValue===code[index] && index<10){
+      index++;
+      console.log('inside if',index);
+    }
+    else if (index<10) {
+      index=0;
+      console.log('inside else if',index);
+    }
+    else if (index===10){
+      console.log('alert',index);
+      alert('Hurray');
+    }
   });
 }
 init();
