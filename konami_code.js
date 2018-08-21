@@ -23,6 +23,7 @@ function init(event) {
     else if (index===10){
       console.log('alert',index);
       alert('Hurray');
+      index=0;
     }
   });
 }
