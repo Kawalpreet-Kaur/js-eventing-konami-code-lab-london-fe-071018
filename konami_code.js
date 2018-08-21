@@ -6,6 +6,6 @@ function init(event) {
   // Write your JavaScript code inside the init() function
   let bodyTag=document.getElementsByTagName('body');
   let keypressed=bodyTag.addEventListener(event.which);
-  let convertedValue=
+  let convertedValue=parseInt();
   if ()
 }
