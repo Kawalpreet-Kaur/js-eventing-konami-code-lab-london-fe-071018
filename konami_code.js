@@ -5,10 +5,10 @@ let index=0;
 function init(event) {
   // Write your JavaScript code inside the init() function
   let bodyTag=document.body;
-  let keypressed=bodyTag.addEventListener('keydown',event=>{
+  bodyTag.addEventListener('keydown',event=>{
     const keyCode = event.detail || event.which;
   
-  console.log(keypressed);
+  console.log(keypkeressed);
   
   let convertedValue=parseInt(keypressed);
   console.log(convertedValue);
