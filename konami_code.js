@@ -26,3 +26,4 @@ function init(event) {
    }
   });
 }
+init();
